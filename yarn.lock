@@ -6327,6 +6327,11 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
+sweetalert2@11.4.4:
+  version "11.4.4"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.4.tgz#49b8db39f00a699224bb6aabcd1185b5a4fea739"
+  integrity sha512-9yYWQuRT1v9JNI/paPTSYV+68MHwe9C+HQ/I2jtfaFzoJgYRftWXOs4JqmDSjT7m2m4r8ebMMn8LcxD1Wq9B/w==
+
 table@^6.0.9:
   version "6.8.2"
   resolved "https://registry.yarnpkg.com/table/-/table-6.8.2.tgz#c5504ccf201213fa227248bdc8c5569716ac6c58"
@@ -6675,6 +6680,13 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.3:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-sweetalert2@^5.0.10:
+  version "5.0.10"
+  resolved "https://registry.yarnpkg.com/vue-sweetalert2/-/vue-sweetalert2-5.0.10.tgz#2123b761dd9d8280a625601454873da9f8b0fb33"
+  integrity sha512-6T8z69YM8z5WYRDwKyPgBBB+1Rk7KZ56xrabyEJ3UPrGtdDaZ1UYoDwITiWLgVSYeCESiVByR4mGvn/YovphCQ==
+  dependencies:
+    sweetalert2 "11.4.4"
 
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
